@@ -96,6 +96,7 @@ Duration scales with your Swords level, starting at 3 seconds at level 50 and ga
 | 200          | 6s       |
 | 500          | 12s      |
 | 1000         | 22s      |
+| 2000         | 42s      |
 
 | Property | Key | Default | Description |
 |----------|-----|---------|-------------|
