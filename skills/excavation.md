@@ -137,12 +137,13 @@ Duration scales with your Excavation level, starting at 3 seconds at level 50 an
 | 900              | 20s      |
 | 1000             | 22s      |
 
-After the ability ends, the tool's temporary enchant is removed and the ability enters a cooldown. The cooldown duration is shared across the dig-speed ability family and is configurable in `config.yml` under `Abilities.Cooldowns.Giga_Drill_Breaker` (default: 240 seconds).
-
-| Property | Value |
-|----------|-------|
-| Unlock level | 50 |
-| EnchantBuff (Efficiency bonus) | `Skills.General.Ability.EnchantBuff` (default: `5`) |
+| Property | Key | Default | Description |
+|----------|-----|---------|-------------|
+| Unlock level | `skillranks.yml` → `Excavation.GigaDrillBreaker.RetroMode.Rank_1` | `50` | Minimum skill level to unlock this ability |
+| Cooldown | `config.yml` → `Abilities.Cooldowns.Giga_Drill_Breaker` | `240s` | Seconds before the ability can be activated again |
+| Max duration | `config.yml` → `Abilities.Max_Seconds.Giga_Drill_Breaker` | `0` (no cap) | Per-ability duration ceiling in seconds. Only takes effect if lower than the global duration cap; 0 disables this cap entirely |
+| Global duration cap | `advanced.yml` → `Skills.General.Ability.Length.RetroMode.CapLevel` | `1000s` | Maximum duration for all super abilities |
+| EnchantBuff | `advanced.yml` → `Skills.General.Ability.EnchantBuff` | `5` | Efficiency enchantment level applied to the shovel during the ability |
 
 ---
 

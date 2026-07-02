@@ -208,6 +208,14 @@ Duration scales with your Mining level, starting at 3 seconds at level 50 and ga
 | 900          | 20s      |
 | 1000         | 22s      |
 
+| Property | Key | Default | Description |
+|----------|-----|---------|-------------|
+| Unlock level | `skillranks.yml` → `Mining.SuperBreaker.RetroMode.Rank_1` | `50` | Minimum skill level to unlock this ability |
+| Cooldown | `config.yml` → `Abilities.Cooldowns.Super_Breaker` | `240s` | Seconds before the ability can be activated again |
+| Max duration | `config.yml` → `Abilities.Max_Seconds.Super_Breaker` | `0` (no cap) | Per-ability duration ceiling in seconds. Only takes effect if lower than the global duration cap; 0 disables this cap entirely |
+| Global duration cap | `advanced.yml` → `Skills.General.Ability.Length.RetroMode.CapLevel` | `1000s` | Maximum duration for all super abilities |
+| EnchantBuff | `advanced.yml` → `Skills.General.Ability.EnchantBuff` | `5` | Efficiency enchantment level applied to the pickaxe during the ability |
+
 Triple Drops via Super Breaker can be disabled:
 
 ```yaml

@@ -103,6 +103,13 @@ Duration scales with your Swords level, starting at 3 seconds at level 50 and ga
 | 900          | 20s      |
 | 1000         | 22s      |
 
+| Property | Key | Default | Description |
+|----------|-----|---------|-------------|
+| Unlock level | `skillranks.yml` → `Swords.SerratedStrikes.RetroMode.Rank_1` | `50` | Minimum skill level to unlock this ability |
+| Cooldown | `config.yml` → `Abilities.Cooldowns.Serrated_Strikes` | `240s` | Seconds before the ability can be activated again |
+| Max duration | `config.yml` → `Abilities.Max_Seconds.Serrated_Strikes` | `0` (no cap) | Per-ability duration ceiling in seconds. Only takes effect if lower than the global duration cap; 0 disables this cap entirely |
+| Global duration cap | `advanced.yml` → `Skills.General.Ability.Length.RetroMode.CapLevel` | `1000s` | Maximum duration for all super abilities |
+
 The maximum number of additional targets hit by the AoE scales with weapon material:
 
 | Weapon material | Max additional targets |
