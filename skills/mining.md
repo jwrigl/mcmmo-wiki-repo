@@ -190,7 +190,23 @@ The chance scales from **0%** at level 1000 to **50%** at level **10000**.
 > Unlocks at level **50**.
 {.is-info}
 
-An active ability. Right-click to ready your pickaxe, then break any compatible block within ~4 seconds to activate Super Breaker. While active, a temporary Efficiency enchant buff is applied to your pickaxe, dramatically increasing mining speed. Triple Drops are also enabled, if Double Drops triggers while Super Breaker is active, the drop becomes a triple instead of a double. Duration scales with your Mining level.
+An active ability. Right-click to ready your pickaxe, then break any compatible block within ~4 seconds to activate Super Breaker. While active, a temporary Efficiency enchant buff is applied to your pickaxe, dramatically increasing mining speed. Triple Drops are also enabled, if Double Drops triggers while Super Breaker is active, the drop becomes a triple instead of a double.
+
+Duration scales with your Mining level, starting at 3 seconds at level 50 and gaining 1 second every additional 50 levels, up to a default maximum of 1000 seconds.
+
+| Mining Level | Duration |
+|-------------:|---------:|
+| 50           | 3s       |
+| 100          | 4s       |
+| 200          | 6s       |
+| 300          | 8s       |
+| 400          | 10s      |
+| 500          | 12s      |
+| 600          | 14s      |
+| 700          | 16s      |
+| 800          | 18s      |
+| 900          | 20s      |
+| 1000         | 22s      |
 
 Triple Drops via Super Breaker can be disabled:
 
