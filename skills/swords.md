@@ -87,6 +87,22 @@ Tick damage is applied twice per second.
 
 Serrated Strikes is an active ability that must be armed by right-clicking with a sword while not looking at a block. When active, the next sword attack deals 25% of the hit's damage to all enemies within **2.5 blocks** of the primary target and also applies Rupture to each one.
 
+Duration scales with your Swords level, starting at 3 seconds at level 50 and gaining 1 second every additional 50 levels, up to a default maximum of 1000 seconds.
+
+| Swords Level | Duration |
+|-------------:|---------:|
+| 50           | 3s       |
+| 100          | 4s       |
+| 200          | 6s       |
+| 300          | 8s       |
+| 400          | 10s      |
+| 500          | 12s      |
+| 600          | 14s      |
+| 700          | 16s      |
+| 800          | 18s      |
+| 900          | 20s      |
+| 1000         | 22s      |
+
 The maximum number of additional targets hit by the AoE scales with weapon material:
 
 | Weapon material | Max additional targets |

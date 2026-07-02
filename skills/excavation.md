@@ -121,15 +121,21 @@ Giga Drill Breaker is an active ability that dramatically boosts your digging sp
 - Treasure rolls are **tripled** for the activated block, three independent rolls are made instead of one.
 - XP from that block is also **tripled** (three separate XP gains apply).
 
-**Duration** formula: `2 + floor(min(skillLevel, 1000) / 50)` seconds. A player at level 50 gets 3 seconds; the maximum at level 1000 is 22 seconds.
+Duration scales with your Excavation level, starting at 3 seconds at level 50 and gaining 1 second every additional 50 levels, up to a default maximum of 1000 seconds.
 
-| Skill level | Duration |
-|-------------|---------|
-| 50          | 3 s     |
-| 250         | 7 s     |
-| 500         | 12 s    |
-| 750         | 17 s    |
-| 1000        | 22 s    |
+| Excavation Level | Duration |
+|-----------------:|---------:|
+| 50               | 3s       |
+| 100              | 4s       |
+| 200              | 6s       |
+| 300              | 8s       |
+| 400              | 10s      |
+| 500              | 12s      |
+| 600              | 14s      |
+| 700              | 16s      |
+| 800              | 18s      |
+| 900              | 20s      |
+| 1000             | 22s      |
 
 After the ability ends, the tool's temporary enchant is removed and the ability enters a cooldown. The cooldown duration is shared across the dig-speed ability family and is configurable in `config.yml` under `Abilities.Cooldowns.Giga_Drill_Breaker` (default: 240 seconds).
 

@@ -139,6 +139,22 @@ Durability damage per proc = `rank × DamagePerRank` (default 6.5 per rank).
 
 Skull Splitter is an active ability that must be armed by right-clicking with an axe while not looking at a block. When active, the next axe attack deals 50% of the hit's damage (scaled by attack strength) to all enemies within **2.5 blocks** of the primary target.
 
+Duration scales with your Axes level, starting at 3 seconds at level 50 and gaining 1 second every additional 50 levels, up to a default maximum of 1000 seconds.
+
+| Axes Level | Duration |
+|-----------:|---------:|
+| 50         | 3s       |
+| 100        | 4s       |
+| 200        | 6s       |
+| 300        | 8s       |
+| 400        | 10s      |
+| 500        | 12s      |
+| 600        | 14s      |
+| 700        | 16s      |
+| 800        | 18s      |
+| 900        | 20s      |
+| 1000       | 22s      |
+
 The maximum number of additional targets hit by the AoE scales with weapon material:
 
 | Weapon material | Max additional targets |

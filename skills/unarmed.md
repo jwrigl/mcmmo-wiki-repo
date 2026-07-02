@@ -72,6 +72,22 @@ Steel Arm Style adds a flat HP bonus to every unarmed hit. It is always active o
 
 Berserk is an active ability that must be armed by right-clicking while bare-handed and not looking at a block. When active, all unarmed hits deal **1.5× damage** multiplied by the current attack strength modifier.
 
+Duration scales with your Unarmed level, starting at 3 seconds at level 50 and gaining 1 second every additional 50 levels, up to a default maximum of 1000 seconds.
+
+| Unarmed Level | Duration |
+|--------------:|---------:|
+| 50            | 3s       |
+| 100           | 4s       |
+| 200           | 6s       |
+| 300           | 8s       |
+| 400           | 10s      |
+| 500           | 12s      |
+| 600           | 14s      |
+| 700           | 16s      |
+| 800           | 18s      |
+| 900           | 20s      |
+| 1000          | 22s      |
+
 ---
 
 ### Arrow Deflect
