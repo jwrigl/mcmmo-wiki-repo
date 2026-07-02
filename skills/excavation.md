@@ -117,9 +117,11 @@ Each treasure also has an independent drop chance (configurable in `treasures.ym
 Giga Drill Breaker is an active ability that dramatically boosts your digging speed and treasure finds. To activate it, right-click with a shovel while holding it to enter the "ready" state, then break any compatible Excavation block.
 
 **While active:**
-- Your shovel is temporarily enchanted with **Efficiency +5** (on top of any existing Efficiency), enabling near-instant block breaking for compatible blocks.
+- Your shovel is temporarily enchanted with Efficiency at the level set by `EnchantBuff` (default: **5**), on top of any existing Efficiency, enabling near-instant block breaking for compatible blocks.
 - Treasure rolls are **tripled** for the activated block, three independent rolls are made instead of one.
 - XP from that block is also **tripled** (three separate XP gains apply).
+
+When the ability ends, the temporary enchant is removed and the ability enters a cooldown.
 
 Duration scales with your Excavation level, starting at 3 seconds at level 50 and gaining 1 second every additional 50 levels, up to a default maximum of 1000 seconds.
 
