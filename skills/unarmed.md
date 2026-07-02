@@ -79,13 +79,7 @@ Duration scales with your Unarmed level, starting at 3 seconds at level 50 and g
 | 50            | 3s       |
 | 100           | 4s       |
 | 200           | 6s       |
-| 300           | 8s       |
-| 400           | 10s      |
 | 500           | 12s      |
-| 600           | 14s      |
-| 700           | 16s      |
-| 800           | 18s      |
-| 900           | 20s      |
 | 1000          | 22s      |
 
 | Property | Key | Default | Description |
